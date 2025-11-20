@@ -1,3 +1,8 @@
+:root {
+  --light-gray: #c0c0c0;
+  --hover: rgb(105, 105, 105);
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -50,7 +55,8 @@ body {
 }
 
 .header__item:hover {
-  color: rgb(105, 105, 105);
+  color: var(--hover);
+  transition: 0.4s;
 }
 
 .header__item--btn {
@@ -65,6 +71,59 @@ body {
 }
 
 .header__item--btn:hover {
-  background-color: rgb(105, 105, 105);
+  background-color: var(--hover);
+  transition: 0.4s;
   color: white;
+}
+
+.studios {
+  position: relative;
+}
+
+.studios__image {
+  width: 100%;
+  height: auto;
+}
+
+.studios__content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.studios__roles {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--light-gray);
+}
+
+.studios__title {
+  font-size: 54px;
+  line-height: 59.4px;
+  text-align: center;
+  color: white;
+}
+
+.studios__subtitle {
+  color: var(--light-gray);
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.studios__icons-row {
+  display: flex;
+  position: absolute;
+  gap: 20px;
+  right: 0%;
+  bottom: 10%;
+  margin: 0 50px;
 }
