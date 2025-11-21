@@ -5,6 +5,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
 }
 
 .wrapper {
@@ -14,7 +16,6 @@ body {
 .header {
   display: flex;
   align-items: center;
-  background: black;
   height: 90px;
 }
 
@@ -126,4 +127,83 @@ body {
   right: 0%;
   bottom: 10%;
   margin: 0 50px;
+}
+
+.specializations__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 40px;
+}
+
+.specializations__text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.specializations__title {
+  font-size: 40px;
+  line-height: 42px;
+}
+
+.specializations__subtitle {
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  color: var(--light-gray);
+}
+
+.specializations__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.specializations__card {
+  position: relative;
+  text-align: start;
+}
+
+.specializations__card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.specializations__card-title {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.specializations__card-subtitle {
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light-gray);
+}
+
+.specializations__card-btn {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  width: 143px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.specializations__card-btn:hover {
+  background-color: var(--light-gray);
+  font-weight: 500;
+  transition: 0.4s;
 }
