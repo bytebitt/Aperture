@@ -203,7 +203,7 @@ body {
 }
 
 .specializations__card-btn:hover {
-  background-color: var(--light-gray);
-  font-weight: 500;
+  background-color: var(--hover);
   transition: 0.4s;
+  color: white;
 }
