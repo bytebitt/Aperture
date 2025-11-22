@@ -291,3 +291,36 @@ body {
   transition: 0.4s;
   color: white;
 }
+
+.leafs {
+  position: relative;
+}
+
+.leafs__image {
+  width: 100%;
+}
+
+.leafs__text {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+}
+
+.leafs__title {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.leafs__subtitle {
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--light-gray);
+}
+
+.leafs__icons {
+  position: absolute;
+  bottom: 6%;
+  right: 6%;
+}
