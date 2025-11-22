@@ -207,3 +207,37 @@ body {
   transition: 0.4s;
   color: white;
 }
+
+.sunset {
+  margin: 100px 0;
+  position: relative;
+}
+
+.sunset__image {
+  width: 100%;
+}
+
+.sunset__text {
+  position: absolute;
+  top: 50%;
+  right: 6%;
+}
+
+.sunset__title {
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.sunset__subtitle {
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--light-gray);
+}
+
+.sunset__icons {
+  position: absolute;
+  bottom: 6%;
+  right: 6%;
+}
