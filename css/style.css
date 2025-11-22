@@ -209,7 +209,7 @@ body {
 }
 
 .sunset {
-  margin: 100px 0;
+  margin: 100px 0 0 0;
   position: relative;
 }
 
@@ -240,4 +240,54 @@ body {
   position: absolute;
   bottom: 6%;
   right: 6%;
+}
+
+.tools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.tools__text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0 0 0 100px;
+}
+
+.tools__pretitle {
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--light-gray);
+}
+
+.tools__title {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.tools__subtitle {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tools__card-btn {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+  width: 143px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.tools__card-btn:hover {
+  background-color: var(--hover);
+  transition: 0.4s;
+  color: white;
 }
